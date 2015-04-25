@@ -53,7 +53,6 @@ RUN rm -rf ~/.nvm && git clone https://github.com/creationix/nvm.git ~/.nvm && \
 ENV PATH $PATH:$JAVA_HOME/bin
 
 COPY start.sh /bin/start.sh
-
 RUN chmod +x /bin/start.sh
 
 CMD ["/bin/start.sh"]
