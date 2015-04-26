@@ -1,7 +1,7 @@
 # app server, base ubuntu
 # include sshd, java, node.js, supervisord
 
-FROM ubuntu:14.04
+FROM ubuntu:15.04
 MAINTAINER yinheli <me@yinheli.com>
 
 RUN rm /bin/sh && ln -s /bin/bash /bin/sh
